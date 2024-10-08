@@ -12,9 +12,9 @@ jobs:
       - run: 
           command: |
             pip install pytest
-            pytest --junitxml=test-results/junit.xml C:/Users/krina/OneDrive/Documents/SSW567/Assignment/SSW-567-A/HW-2/TestImprovedTriangle.py
+            pytest --junitxml=test-results/junit.xml HW-2/TestImproriangle.py
       - store_test_results:
-          path: C:/Users/krina/OneDrive/Documents/SSW567/Assignment/SSW-567-A/test-results
+          path: test-results
 
 workflows:
   testing_triangles:
